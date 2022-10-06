@@ -8,9 +8,9 @@ namespace Spotify
 {
     internal class Playlist : SongCollection
     {
-        public Person owner;
+        public Person Owner;
 
-        public Playlist(Person, string)
+        public Playlist(Person owner, string playlist) : base(playlist)
         {
 
         }
@@ -25,9 +25,9 @@ namespace Spotify
 
         }
 
-        public string override ToString()
+        public override String ToString()
         {
-        
+            return "";
         }
     }
 }

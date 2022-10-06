@@ -8,22 +8,22 @@ namespace Spotify
 {
     internal class SongCollection
     {
-        private string title;
-        public List<iPlayable> playables <iPlayable>();
+        private string Title;
+        public List<iPlayable> playables = new List<iPlayable>();
 
-        public SongCollection(string)
+        public SongCollection(string abc)
         {
 
         }
 
-        public string override ToString()
+        public override String ToString()
         {
-
+            return "";
         }
 
         public iPlayable ShowPlayables()
         {
-
+            return playables[0];
         }
     }
 }

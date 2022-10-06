@@ -8,22 +8,22 @@ namespace Spotify
 {
     internal class SuperUser
     {
-        void AddFriend(Person)
+        void AddFriend(Person person)
         {
 
         }
 
-        void RemoveFriend(Person)
+        void RemoveFriend(Person person)
         {
 
         }
 
-        Playlist CreatePlaylist(string)
+        Playlist CreatePlaylist(string createPlaylist)
         {
 
         }
 
-        void RemovePlaylist(int)
+        void RemovePlaylist(int playlist)
         {
 
         }

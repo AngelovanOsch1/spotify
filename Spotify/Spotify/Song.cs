@@ -25,14 +25,14 @@ namespace Spotify
         public Genre SongGenre { get { return songGenre; } }
         private int duration;
 
-        public Song(string, Album)
+        public Song(string song, List<Artist> artists, int duration, Genre genre)
         {
             songGenre = Genre.METAL;
         }
 
-        public string override ToString()
+        public override String ToString()
         {
-
+            return "";
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,19 +11,19 @@ namespace Spotify
     {
         private List <Artist> artists = new List<Artist>();
 
-        public Album(Artist, String Song)
+        public Album(string abc, List<Artist> artists) : base(abc)
         {
-
+            
         }
 
-        public Artist ShowArtists
+        public Artist ShowArtists()
         {
-
+            return artists[0];
         }
 
-        public string override ToString()
+        public override String ToString()
         {
-
+            return "";
         }
     }
 }

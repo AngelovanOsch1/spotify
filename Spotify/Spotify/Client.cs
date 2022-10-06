@@ -15,7 +15,7 @@ namespace Spotify
 
         public int CurrentTime()
         {
-
+           
         }
 
         public bool Playing()
