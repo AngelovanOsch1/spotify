@@ -23,12 +23,12 @@ namespace Spotify
 
         public void AddSong(Song song)
         {
-
+            Songs.Add(song);
         }
 
         public void AddAlbum(Album album)
         {
-
+            albums.Add(album);
         }
 
         public override String ToString()

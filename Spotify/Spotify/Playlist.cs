@@ -17,12 +17,12 @@ namespace Spotify
 
         public void Add(iPlayable addSong)
         {
-            return;
+            playables.Add(addSong);
         }
 
         public void Remove(iPlayable removeSong) 
         {
-            return;
+            playables.Remove(removeSong);
         }
 
         public override String ToString()

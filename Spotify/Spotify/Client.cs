@@ -100,7 +100,7 @@ namespace Spotify
 
         public void Play()
         {
-
+            Console.WriteLine();
         }
 
         public void Pause()
