@@ -20,19 +20,19 @@ namespace Spotify
 
         Playlist CreatePlaylist(string createPlaylist)
         {
-
+            return CreatePlaylist(createPlaylist);
         }
 
         void RemovePlaylist(int playlist)
         {
 
         }
-        void AddToPlayList(iPlayable)
+        void AddToPlayList(iPlayable addToPlaylist)
         {
 
         }
 
-        void RemoveFromPlaylist(iPlayable)
+        void RemoveFromPlaylist(iPlayable removeFromPlaylist)
         {
 
         }

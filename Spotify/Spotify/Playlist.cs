@@ -15,14 +15,14 @@ namespace Spotify
 
         }
 
-        public void Add(iPlayable)
+        public void Add(iPlayable addSong)
         {
-
+            return;
         }
 
-        public void Remove(iPlayable)
+        public void Remove(iPlayable removeSong) 
         {
-
+            return;
         }
 
         public override String ToString()

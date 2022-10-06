@@ -10,54 +10,54 @@ namespace Spotify
     {
         public iPlayable CurrentlyPlaying()
         {
-
+            return CurrentlyPlaying();
         }
 
-        public int CurrentTime()
+        public int CurrentTime(int currentTime)
         {
-           
+           return currentTime;
         }
 
-        public bool Playing()
+        public bool Playing(bool playing)
         {
-
+            return playing;
         }
 
-        public bool Shuffle()
+        public bool Shuffle(bool shuffle)
         {
-
+            return shuffle;
         }
 
-        public bool Repeat()
+        public bool Repeat(bool repeat)
         {
-
+            return repeat;
         }
 
-        private SuperUser activeUser()
+        private SuperUser ActiveUser()
         {
-
+            return ActiveUser();
         }
 
         private Album AllAlbums()
         {
-
+            return AllAlbums();
         }
 
         private Song AllSongs()
         {
-
+            return AllSongs();
         }
         private Person AllUsers()
         {
-
+            return AllUsers();
         }
 
-        public Client(Person, Album, Song)
+        public Client(Person person, Album album, Song song)
         {
 
         }
 
-        public void SetActiveUser(Person)
+        public void SetActiveUser(Person person)
         {
 
         }
@@ -67,7 +67,7 @@ namespace Spotify
 
         }
 
-        public void SelectAlbum(int)
+        public void SelectAlbum(int selectAlbum)
         {
 
         }
@@ -75,7 +75,7 @@ namespace Spotify
         {
 
         }
-        public void SelectSong(int)
+        public void SelectSong(int selectSong)
         {
 
         }
@@ -83,7 +83,7 @@ namespace Spotify
         {
 
         }
-        public void SelectUser(int)
+        public void SelectUser(int selectUser)
         {
 
         }
@@ -93,7 +93,7 @@ namespace Spotify
 
         }
 
-        public void SelectUserPlaylists(int)
+        public void SelectUserPlaylists(int selectUserPlaylist)
         {
 
         }
@@ -117,17 +117,17 @@ namespace Spotify
         {
 
         }
-        public void SetShuffle(bool)
+        public void SetShuffle(bool setShuffle)
         {
 
         }
 
-        public void SetRepeat(bool)
+        public void SetRepeat(bool setRepeat)
         {
 
         }
 
-        public void CreatePlayList(string)
+        public void CreatePlayList(string createPlaylist)
         {
 
         }
@@ -135,15 +135,15 @@ namespace Spotify
         {
 
         }
-        public void SelectPlayList(int)
+        public void SelectPlayList(int selectPlaylist)
         {
 
         }
-        public void RemovePlayList(int)
+        public void RemovePlayList(int removePlaylist)
         {
 
         }
-        public void AddToPlaylist(int)
+        public void AddToPlaylist(int addToPlaylist)
         {
 
         }
@@ -152,7 +152,7 @@ namespace Spotify
         {
 
         }
-        public void RemoveFromPlaylist(int)
+        public void RemoveFromPlaylist(int removeFromPlaylist)
         {
 
         }
@@ -166,15 +166,14 @@ namespace Spotify
 
         }
 
-        public void AddFriend(int)
+        public void AddFriend(int addFriend)
         {
 
         }
 
-        public void RemoveFriend(int)
+        public void RemoveFriend(int removeFriend)
         {
 
         }
-
     }
 }
