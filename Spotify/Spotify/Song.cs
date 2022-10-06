@@ -6,16 +6,28 @@ using System.Threading.Tasks;
 
 namespace Spotify
 {
+    enum Genre
+    {
+        ROCK,
+        METAL,
+        POP,
+        HIPHOP,
+        DUBSTEP,
+
+    }
     internal class Song
     {
-        public string title;
-        public List <Artist> artists <Artist>();
-        public Genre SongGenre;
+        private string title;
+        public string Title { get { return title; } }
+        private List <Artist> artists  = new List<Artist>();
+
+        private Genre songGenre;
+        public Genre SongGenre { get { return songGenre; } }
         private int duration;
 
         public Song(string, Album)
         {
-
+            songGenre = Genre.METAL;
         }
 
         public string override ToString()

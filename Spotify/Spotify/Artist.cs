@@ -8,28 +8,32 @@ namespace Spotify
 {
     internal class Artist
     {
-        public String name;
+        private string name;
+        public string Name { get { return name; } }
+
         private List<Album> albums = new List<Album>();
+
         private List<Song> Songs = new List<Song>();
 
-        public Artist(string name, albums )
+        public Artist(string name, List<Album> albums)
+        {
+            this.name = name;
+            this.albums = albums;
+        }
+
+        public void AddSong(Song song)
         {
 
         }
 
-        public void AddSong(Song)
+        public void AddAlbum(Album album)
         {
 
         }
 
-        public void AddAlbum(Album)
+        public override String ToString()
         {
-
-        }
-
-        public String override ToString()
-        {
-
+            return "";
         }
     }
 }
