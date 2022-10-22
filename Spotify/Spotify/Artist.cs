@@ -18,12 +18,12 @@ namespace Spotify
         public Artist(string name, List<Album> albums)
         {
             this.name = name;
-            this.albums = albums;
+            this.albums = new List<Album>(albums);
         }
 
         public void AddSong(Song song)
         {
-            Songs.Add(song);
+            // Song wordt toegevoegd aan welke list?
         }
 
         public void AddAlbum(Album album)

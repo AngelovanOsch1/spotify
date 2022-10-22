@@ -18,15 +18,16 @@ namespace Spotify
     internal class Song
     {
         private string title;
-        public string Title { get { return title; } }
+        private int duration;
         private List <Artist> artists  = new List<Artist>();
-
         private Genre songGenre;
         public Genre SongGenre { get { return songGenre; } }
-        private int duration;
 
-        public Song(string song, List<Artist> artists, int duration, Genre genre)
+        public Song(string title, List<Artist> artists, int duration, Genre genre)
         {
+            this.title = title;
+            this.artists = new List<Artist>(artists);
+            this.duration = duration;
             songGenre = Genre.METAL;
         }
 

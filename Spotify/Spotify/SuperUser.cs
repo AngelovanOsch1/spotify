@@ -6,16 +6,21 @@ using System.Threading.Tasks;
 
 namespace Spotify
 {
-    internal class SuperUser
+    internal class SuperUser : Person
     {
-        void AddFriend(Person person)
+        public SuperUser(string person) : base(person)
         {
 
         }
 
+        void AddFriend(Person person)
+        {
+           Friends.Add(person);
+        }
+
         void RemoveFriend(Person person)
         {
-
+            Friends.Remove(person);
         }
 
         Playlist CreatePlaylist(string createPlaylist)
