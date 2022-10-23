@@ -15,12 +15,12 @@ namespace Spotify
 
         void AddFriend(Person person)
         {
-           Friends.Add(person);
+           friends.Add(person);
         }
 
         void RemoveFriend(Person person)
         {
-            Friends.Remove(person);
+            friends.Remove(person);
         }
 
         Playlist CreatePlaylist(string createPlaylist)

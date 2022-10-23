@@ -47,9 +47,9 @@ namespace Spotify
         {
             return AllSongs();
         }
-        private Person AllUsers()
+        private void AllUsers()
         {
-            return AllUsers();
+         
         }
 
         public Client(Person person, Album album, Song song)

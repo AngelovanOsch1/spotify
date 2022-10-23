@@ -28,7 +28,7 @@ namespace Spotify
 
         public override String ToString()
         {
-            return "";
+            return "artist " + artists;
         }
     }
 }

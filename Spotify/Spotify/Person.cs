@@ -9,18 +9,19 @@ namespace Spotify
     internal class Person
     {
         public string name;
-        protected List <Person> Friends = new List<Person>();
-        private List<Playlist> playlists = new List<Playlist>();
+        protected List <Person> friends = new List<Person>();
+        private List <Playlist> playlists = new List<Playlist>();
 
 
         public Person(string person)
         {
             this.name = person;
+            friends.Add(new List <Person>());
         }
 
         public List <Person> ShowFriends()
         {
-            return Friends;
+            return friends;
         }
 
         public List <Playlist> ShowPlayLists()
@@ -35,7 +36,7 @@ namespace Spotify
 
         public override String ToString()
         {
-            return "";
+            return "Friends " + friends + "Name " + name;
         }
     }
 }

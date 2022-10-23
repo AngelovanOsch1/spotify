@@ -6,7 +6,10 @@
         {
             //Song song = new Song("test", , 3, Genre.ROCK);
             Person user = new Person("Angelo");
-            user.
+            Person user2 = new Person("Piet");
+
+            Console.WriteLine(user2.ShowFriends);
+
         }
     }
 }

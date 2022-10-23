@@ -23,7 +23,7 @@ namespace Spotify
 
         public void AddSong(Song song)
         {
-            // Song wordt toegevoegd aan welke list?
+            Songs.Add(song);
         }
 
         public void AddAlbum(Album album)
@@ -33,7 +33,7 @@ namespace Spotify
 
         public override String ToString()
         {
-            return "";
+            return "album " + albums + "song " + Songs + "name " +  name;
         }
     }
 }
