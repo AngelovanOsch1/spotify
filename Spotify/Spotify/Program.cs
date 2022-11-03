@@ -4,9 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Artist a = new Artist("Name", new List<Album>() { });
-            a.AddSong("test");
+            //Song song = new Song("test", , 3, Genre.ROCK);
+            Person user = new Person("Angelo");
+            Person user2 = new Person("Piet");
+
+            Console.WriteLine(user2.ShowFriends);
 
         }
     }

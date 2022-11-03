@@ -18,7 +18,7 @@ namespace Spotify
         public Artist(string name, List<Album> albums)
         {
             this.name = name;
-            this.albums = albums;
+            this.albums = new List<Album>(albums);
         }
 
         public void AddSong(Song song)
@@ -33,7 +33,7 @@ namespace Spotify
 
         public override String ToString()
         {
-            return "";
+            return "album " + albums + "song " + Songs + "name " +  name;
         }
     }
 }

@@ -16,14 +16,19 @@ namespace Spotify
             
         }
 
-        public Artist ShowArtists()
+         //hoe return ik een list of objects?
+
+        public void ShowArtists()
         {
-            return artists[0];
+            foreach (Artist artist in artists)
+            {
+                Console.WriteLine(artist);
+            }
         }
 
         public override String ToString()
         {
-            return "";
+            return "artist " + artists;
         }
     }
 }
