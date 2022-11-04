@@ -13,10 +13,10 @@ namespace Spotify
         private List <Playlist> playlists = new List<Playlist>();
 
 
-        public Person(string person)
+        public Person(string person, List<Person> friends = null)
         {
             this.name = person;
-            friends.Add(new List <Person>());
+            this.friends = friends;
         }
 
         public List <Person> ShowFriends()

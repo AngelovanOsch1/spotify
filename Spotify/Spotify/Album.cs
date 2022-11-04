@@ -16,14 +16,9 @@ namespace Spotify
             
         }
 
-         //hoe return ik een list of objects?
-
-        public void ShowArtists()
+        public List <Artist> ShowArtists()
         {
-            foreach (Artist artist in artists)
-            {
-                Console.WriteLine(artist);
-            }
+            return artists;
         }
 
         public override String ToString()

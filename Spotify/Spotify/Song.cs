@@ -15,7 +15,7 @@ namespace Spotify
         DUBSTEP,
 
     }
-    internal class Song
+    internal class Song : iPlayable
     {
         private string title;
         private int duration;
@@ -34,6 +34,31 @@ namespace Spotify
         public override String ToString()
         {
             return "";
+        }
+
+        public void Play()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Pause()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Next()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Stop()
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Length()
+        {
+            throw new NotImplementedException();
         }
     }
 }
